@@ -26,10 +26,10 @@ Route::get('/', function () {
 //     return view('home');
 // });
 
-Route::get('/resultado', [Controller::class, 'result'])->name('result');
-Route::get('/cotacao-enviada', [Controller::class, 'quotationSend'])->name('quotationSend');
-Route::post('/enviar-simulacao', [Controller::class, 'result'])->name('result');
-Route::post('/enviar-cotacao', [Controller::class, 'cotacao'])->name('cotacao');
+// Route::get('/resultado', [Controller::class, 'result'])->name('result');
+// Route::get('/cotacao-enviada', [Controller::class, 'quotationSend'])->name('quotationSend');
+// Route::post('/enviar-simulacao', [Controller::class, 'result'])->name('result');
+// Route::post('/enviar-cotacao', [Controller::class, 'cotacao'])->name('cotacao');
 
 
 Route::middleware([
