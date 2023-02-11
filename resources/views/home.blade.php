@@ -74,39 +74,44 @@
                     <img src="assets/images/slider/slide-1.jpg" alt class="slider-bg">
                     <div class="container">
                         <div class="row">
-                            <div class="col col-lg-6 col-md-8 col-sm-10 slide-caption"  style="margin-top:30px;">
+                            <div class="col col-lg-8 col-md-8 col-sm-10 slide-caption"  style="margin-top:30px;">
                                 <h2><span>Energia Solar</span>Renova Sun</h2>
-                                <p>Entre em Contato Conosco, Temos as Melhores Soluções em Energia Solar para Você</p>
+                                <p>Entre em Contato Conosco, Temos as Melhores Soluções <br>em Energia Solar para Você</p>
                                 <div class="btns">
                                     <a href="#" class="theme-btn">Faça seu Orçamento Gratuito</a>
                                 </div>
                             </div>
 
-							<div class="col col-lg-6 col-md-8 col-sm-10"  style="margin:10px 0 0 160px;width:35% !important">
+							<div class="col col-lg-4 col-md-8 col-sm-10"  style="margin:10px 0 0 -50px;width:35% !important">
 
                         <div class="contact-form" style="background-color:white;border-top:10px solid #ff5e14; border-radius:5px; box-shadow: 2px 2px 2px #000000;">
 						<!-- <p style="text-align:center;color:black">Faça sua Cotação Gratuita</p> -->
                             <form class="row contact-validation-active" id="contact-form-s2" novalidate="novalidate"  style="height:350px;">
+								<h2 style="font-size:20px;text-align:center">Faça sua Cotação Gratuita</h2>
+                                <div class="col col-sm-6">
+                                    <input type="text" class="form-control" style="margin-bottom:20px;border-radius:0;border:none;border-bottom:2px solid #ff5e14; box-shadow:none" id="f-name" name="f_name" value="Nome Completo">
+                                </div>
+                                <div class="col col-sm-6">
+                                    <input type="text" style="margin-bottom:20px;border-radius:0;border:none;border-bottom:2px solid #ff5e14; box-shadow:none" class="form-control" id="l-name" name="l_name" value="Telefone">
+                                </div>
+                                <div class="col col-sm-12">
+                                    <input type="email" style="margin-bottom:20px;border-radius:0;border:none;border-bottom:2px solid #ff5e14; box-shadow:none" class="form-control" id="email" name="email" value="E-mail">
+                                </div>
+                                <div class="col col-sm-12">
+                                    <select type="text" class="form-control" id="phone" name="phone" style="margin-bottom:20px;border-radius:0;border:none;border-bottom:2px solid #ff5e14; box-shadow:none">
+									<option>Escolha Seu Projeto</option>
+									<option>Energia Solar Residencial</option>
+									<option>Energia Solar Para Empresas</option>
+									<option>Energia Solar Para Agronegócios</option>
 
-                                <div class="col col-sm-6">
-                                    <input type="text" class="form-control" id="f-name" name="f_name" value="Nome Completo">
-                                </div>
-                                <div class="col col-sm-6">
-                                    <input type="text" class="form-control" id="l-name" name="l_name" value="Telefone">
-                                </div>
-                                <div class="col col-sm-12">
-                                    <input type="email" class="form-control" id="email" name="email" value="E-mail">
-                                </div>
-                                <div class="col col-sm-12">
-                                    <label for="phone">Escolha seu Projeto</label>
-                                    <input type="text" class="form-control" id="phone" name="phone">
+									</select>
                                 </div>
                                 <div class="col col-xs-12">
-                                    <textarea id="message" name="note" class="form-control" name="Sua Mensagem"></textarea>
+                                    <textarea id="message" name="note" class="form-control" name="Sua Mensagem" style="border-radius:0;border:none;border-bottom:2px solid #ff5e14">Sua Mensagem</textarea>
                                 </div>
                                 <div class="col col-xs-12">
                                     <div class="submit-btn">
-                                        <button type="submit" class="theme-btn-s2">Enviar</button>
+                                        <button type="submit" style="border:none;margin-top:10px;" class="theme-btn-s2">Enviar</button>
                                         <div id="loader">
                                             <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
                                         </div>
