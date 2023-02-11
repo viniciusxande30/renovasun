@@ -18,12 +18,12 @@
                             <div class="widget services-widget">
                                 <h3>Navegação</h3>
                                 <ul>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i> Home</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i> Quem Somos</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i> Nossos Serviços</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i> Projetos/Clientes</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i> Fale Conosco</a></li>
-									<li><a href="#"><i class="fa fa-angle-right"></i> Orçamento Gratuito</a></li>
+                                    <li><a href="{{url('/')}}"><i class="fa fa-angle-right"></i> Home</a></li>
+                                    <li><a href="{{url('/')}}/#quem-somos"><i class="fa fa-angle-right"></i> Quem Somos</a></li>
+                                    <li><a href="{{url('/')}}/#servicos"><i class="fa fa-angle-right"></i> Nossos Serviços</a></li>
+                                    <li><a href="{{url('/')}}/#projetos"><i class="fa fa-angle-right"></i> Projetos/Clientes</a></li>
+                                    <li><a href="{{url('/')}}/#contato"><i class="fa fa-angle-right"></i> Fale Conosco</a></li>
+									<li><a href="https://www.contate.me/renova-sun" target="_blank"><i class="fa fa-angle-right"></i> Orçamento Gratuito</a></li>
 
                                 </ul>
                             </div>
@@ -33,9 +33,9 @@
                             <div class="widget services-widget">
                                 <h3>Nossos Serviços</h3>
                                 <ul>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i>Energia Solar para Residências</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i> Energia Solar para Empresas</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i> Energia Solar para Agronegócios</a></li>
+                                    <li><a href="https://localhost/RENOVASUN/public/#servicos"><i class="fa fa-angle-right"></i>Energia Solar para Residências</a></li>
+                                    <li><a href="https://localhost/RENOVASUN/public/#servicos"><i class="fa fa-angle-right"></i> Energia Solar para Empresas</a></li>
+                                    <li><a href="https://localhost/RENOVASUN/public/#servicos"><i class="fa fa-angle-right"></i> Energia Solar para Agronegócios</a></li>
                                 </ul>
                             </div>
                         </div>

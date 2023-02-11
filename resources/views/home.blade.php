@@ -15,6 +15,9 @@
         <!-- Start header -->
         <header id="header" class="site-header header-style-1">
            <style>
+			html {
+			scroll-behavior: smooth;
+			}
 		  .navbar a:after{
 			top:75% !important;
 		  }
@@ -52,7 +55,7 @@
                         </ul>
                     </div><!-- end of nav-collapse -->
                     <div class="request-quote">
-                        <a href="#">Orçamento Gratuito</a>
+                        <a href="https://www.contate.me/renova-sun"  target="_BLANK">Orçamento Gratuito</a>
                     </div>
                 </div><!-- end of container -->
             </nav>
@@ -71,7 +74,7 @@
                                 <h2><span>Energia Solar</span>Renova Sun</h2>
                                 <p>Entre em Contato Conosco, Temos as Melhores Soluções <br>em Energia Solar para Você</p>
                                 <div class="btns">
-                                    <a href="#" class="theme-btn">Faça seu Orçamento Gratuito</a>
+                                    <a href="https://www.contate.me/renova-sun" target="_blank" class="theme-btn">Faça seu Orçamento Gratuito</a>
                                 </div>
                             </div>
 
@@ -138,7 +141,7 @@
                     <div class="col col-xs-12">
                         <div class="cta-text">
                             <h3>+ DE 3 ANOS DE EXPERIÊNCIA NO MERCADO DE ENERGIA SOLAR</h3>
-                            <a href="#" class="theme-btn-s2">Contato pelo WhatsApp</a>
+                            <a href="https://www.contate.me/renova-sun" class="theme-btn-s2">Contato pelo WhatsApp</a>
                         </div>
                     </div>
                 </div>
@@ -154,7 +157,7 @@
 
 
         <!-- start services-section -->
-        <section class="services-section section-padding">
+        <section class="services-section section-padding" id="servicos">
             <div class="container">
                 <div class="row">
                     <div class="col col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1">
@@ -172,7 +175,7 @@
                                 <div class="img-overlay">
                                     <img src="assets/images/services/img-1.jpg" alt>
                                     <div class="overlay">
-                                        <a href="#"><i class="fa fa-whatsapp"></i></a>
+                                        <a href="https://www.contate.me/renova-sun" target="_BLANK"><i class="fa fa-whatsapp"></i></a>
                                     </div>
                                 </div>
                                 <div class="details">
@@ -185,7 +188,7 @@
                                 <div class="img-overlay">
                                     <img src="assets/images/services/img-2.jpg" alt>
                                     <div class="overlay">
-                                        <a href="#"><i class="fa fa-whatsapp"></i></a>
+                                        <a href="https://www.contate.me/renova-sun" target="_BLANK"><i class="fa fa-whatsapp"></i></a>
                                     </div>
                                 </div>
                                 <div class="details">
@@ -198,7 +201,7 @@
                                 <div class="img-overlay">
                                     <img src="assets/images/services/img-3.jpg" alt>
                                     <div class="overlay">
-                                        <a href="#"><i class="fa fa-whatsapp"></i></a>
+                                        <a href="https://www.contate.me/renova-sun"  target="_BLANK"><i class="fa fa-whatsapp"></i></a>
                                     </div>
                                 </div>
                                 <div class="details">
@@ -218,7 +221,7 @@
 
 
 
-		<section class="about-section-s3 section-padding">
+		<section class="about-section-s3 section-padding" id="quem-somos">
             <div class="container">
                 <div class="row">
                     <div class="col col-md-6">
@@ -243,7 +246,7 @@
 
 
 		 <!-- start cta-section -->
-		 <section class="cta-section">
+		 <section class="cta-section" id="projetos">
             <div class="container">
                 <div class="row">
                     <div class="col col-xs-12">
@@ -317,7 +320,7 @@
                     </div>
                     <div class="col col-lg-3 col-md-3">
                        <div class="all-news-link">
-                            <a href="#" class="theme-btn-s2">Contato pelo WhatsApp</a>
+                            <a href="https://www.contate.me/renova-sun" target="_BLANK" class="theme-btn-s2">Contato pelo WhatsApp</a>
                        </div>
                     </div>
                 </div>  
@@ -487,7 +490,7 @@
                     <div class="col col-xs-12">
                         <div class="cta-text">
                             <h3>Entre em Contato Conosco e Faça sua Cotação Gratuita</h3>
-                            <a href="#" class="theme-btn-s2">Entre em Contato Pelo WhatsApp</a>
+                            <a href="https://www.contate.me/renova-sun"  target="_BLANK" class="theme-btn-s2">Entre em Contato Pelo WhatsApp</a>
                         </div>
                     </div>
                 </div>
@@ -541,7 +544,7 @@
 
 
         <!-- start contact-section -->
-        <section class="contact-section section-padding">
+        <section class="contact-section section-padding" id="contato">
             <div class="container">
                 <div class="col col-lg-10">
                     <div class="row">
@@ -582,7 +585,7 @@
                             </div>
 							
                             <div class="submit-btn-wrap">
-                                <input value="Enviar Cotação" type="submit">
+                                <input value="Solicitar Cotação" type="submit">
                                 <div id="loader">
                                     <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
                                 </div>
@@ -618,8 +621,8 @@
                         </div>
                         <div class="contact-info">
                             <ul>
-                                <li><i class="fa fa-phone"></i>(11) 91339-2772</li>
-                                <li><i class="fa fa-envelope"></i> renovasun@renovasun.com.br</li>
+                                <li><a href="contate.me/renova-sun" target="_blank"><i class="fa fa-phone"></i>(11) 91339-2772</a></li>
+                                <li><a href="mailto:renovasun.com.br"><i class="fa fa-envelope"></i> renovasun@renovasun.com.br</a></li>
                                 <li><i class="fa fa-home"></i> Estrada José Antonio Manoel, 37, São Bento Arujá, SP</li>
                             </ul>
                         </div>
