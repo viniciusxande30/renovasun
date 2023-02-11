@@ -70,7 +70,7 @@
             </div> <!-- end upper-footer -->
             <div class="copyright-info">
                 <div class="container">
-                    <p>2023 &copy; Todos os Direitos Reservados, Desenvolvido com Carinho por: <a href="https://rsweb.com.br" target="_BLANK">RS WEB </a></p>
+                    <p>2023 &copy; Todos os Direitos Reservados, Desenvolvido com Carinho pela <a href="https://rsweb.com.br" target="_BLANK">RS WEB </a></p>
                 </div>
             </div>
         </footer>

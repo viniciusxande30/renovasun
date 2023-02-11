@@ -1,7 +1,6 @@
 @include('includes.header')
 
 <body>
-
     <!-- start page-wrapper -->
     <div class="page-wrapper">
 
@@ -15,13 +14,17 @@
 
         <!-- Start header -->
         <header id="header" class="site-header header-style-1">
-           
+           <style>
+		  .navbar a:after{
+			top:75% !important;
+		  }
+		   </style>
 
             <nav class="navigation navbar navbar-default">
                 <div class="container">
                     <div class="navbar-header">
                         <button type="button" class="open-btn">
-                            <span class="sr-only">Toggle navigation</span>
+                            <span class="sr-only">Menu de Navegação</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -30,7 +33,7 @@
                     </div>
                     <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
                         <button class="close-navbar"><i class="fa fa-close"></i></button>
-                        <ul class="nav navbar-nav">
+                        <ul class="nav navbar-nav" >
                             <li class="menu-item-has-children">
                                 <a href="#">Home</a>
                                 
@@ -536,21 +539,7 @@
                                 </div>
                             </div>
                             <div class="grid">
-                                <div class="img-holder">
-                                    <img src="assets/images/testimonials/img-1.jpg" alt>
-                                </div>
-                                <div class="details">
-                                    <h3>“Impressive Performance & Productivity”</h3>
-                                    <span class="client-info">- Daniel Craig, Google</span>
-                                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non num quam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commo di conse quatur.</p>
-                                    <div class="rating">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </div>
-                                </div>
+                               
                             </div>
                         </div>
                     </div>
@@ -561,36 +550,6 @@
         <!-- end testimonials-section -->
 
 
-        <!-- start partners -->
-        <section class="partners-section">
-            <h2 class="hidden">Partners</h2>
-            <div class="container">
-                <div class="row">
-                    <div class="col col-xs-12">
-                        <div class="partners-slider">
-                            <div class="grid">
-                                <img src="assets/images/partners/img-1.png" alt>
-                            </div>
-                            <div class="grid">
-                                <img src="assets/images/partners/img-2.png" alt>
-                            </div>
-                            <div class="grid">
-                                <img src="assets/images/partners/img-3.png" alt>
-                            </div>
-                            <div class="grid">
-                                <img src="assets/images/partners/img-4.png" alt>
-                            </div>
-                            <div class="grid">
-                                <img src="assets/images/partners/img-2.png" alt>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- end row -->
-            </div> <!-- end container -->
-        </section>
-        <!-- end partners -->
-
-
         <!-- start contact-section -->
         <section class="contact-section section-padding">
             <div class="container">
@@ -598,12 +557,12 @@
                     <div class="row">
                         <div class="col col-lg-4 col-md-4">
                             <div class="section-title-s3">
-                                <h2>Request a Quote</h2>
+                                <h2>Faça sua Cotação Gratuita</h2>
                             </div>
                         </div>
                         <div class="col col-lg-7 col-md-8">
                             <div class="title-text">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor incidi dunt ut labore et dolore magna aliqua.</p>
+                                <p>Entre em Contato Conosco! Confira os Melhores Preços Personalizados Para a Sua Necessidade!</p>
                             </div>
                         </div>
                     </div>
@@ -611,28 +570,29 @@
                     <div class="contact-form form">
                         <form method="post" id="contact-form" class="contact-validation-active">
                             <div>
-                                <label for="name">Full Name</label>
+                                <label for="name">Nome Completo</label>
                                 <input type="text" id="name" name="name" class="form-control">
                             </div>
                             <div>
-                                <label for="email">Email</label>
+                                <label for="email">E-mail</label>
                                 <input type="email" id="email" name="email" class="form-control">
                             </div>
                             <div>
-                                <label for="phone">Phone Number</label>
+                                <label for="phone">Telefone</label>
                                 <input type="text" id="phone" name="phone" class="form-control">
                             </div>
                             <div>
-                                <label>Business Type</label>
-                                <select name="select" class="form-control">
-                                    <option selected disabled> -- Select One -- </option>
-                                    <option value="Select One">Select One</option>
-                                    <option value="Select Two">Select Two</option>
-                                    <option value="Select Three">Select Three</option>
-                                </select>
+                                <label>Escolha o Seu Projeto</label>
+                                <select type="text" class="form-control" id="phone" name="phone">
+									<option>Energia Solar Residencial</option>
+									<option>Energia Solar Para Empresas</option>
+									<option>Energia Solar Para Agronegócios</option>
+
+									</select>
                             </div>
+							
                             <div class="submit-btn-wrap">
-                                <input value="Submit" type="submit">
+                                <input value="Enviar Cotação" type="submit">
                                 <div id="loader">
                                     <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
                                 </div>
@@ -659,19 +619,18 @@
         <section class="contact-info-map-section">
             <div class="content">
                 <div class="left-col">
-                    <div class="location-map" id="map"></div>
-                </div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3661.033319922433!2d-46.28777188255614!3d-23.423163499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce7e7f5ed3861f%3A0x65fef0f0c07d064c!2sEstr.%20Jos%C3%A9%20Antonio%20Manoel%2C%2037%20-%20S%C3%A3o%20Bento%2C%20Aruj%C3%A1%20-%20SP%2C%2007432-575!5e0!3m2!1spt-BR!2sbr!4v1676131843212!5m2!1spt-BR!2sbr" width="650" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
                 <div class="right-col">
                     <div class="inner">
                         <div class="title-text">
-                            <h3>Drop us a line</h3>
-                            <p>For any kind of query, contact us with the details below.</p>
+                            <h3>Entre em Contato Conosco</h3>
+                            <p>Faça seu Orçamento de Energia Limpa com Quem Entende do Assunto!</p>
                         </div>
                         <div class="contact-info">
                             <ul>
-                                <li><i class="fa fa-phone"></i> +123 (569) 254 78</li>
-                                <li><i class="fa fa-envelope"></i> info-desk@clinkers.com</li>
-                                <li><i class="fa fa-home"></i> #59, East Madison Ave, Melbourne, Australia</li>
+                                <li><i class="fa fa-phone"></i>(11) 91339-2772</li>
+                                <li><i class="fa fa-envelope"></i> renovasun@renovasun.com.br</li>
+                                <li><i class="fa fa-home"></i> Estrada José Antonio Manoel, 37, São Bento Arujá, SP</li>
                             </ul>
                         </div>
                     </div>
