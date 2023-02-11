@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="themexriver">
+	<link rel="icon" type="image/x-icon" href="{{url('/')}}/assets/images/logo.png">
 
     <!-- Page Title -->
     <title> Renova Sun - Energia Solar </title>
