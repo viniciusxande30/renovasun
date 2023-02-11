@@ -35,30 +35,20 @@
                         <button class="close-navbar"><i class="fa fa-close"></i></button>
                         <ul class="nav navbar-nav" >
                             <li class="menu-item-has-children">
-                                <a href="#">Home</a>
+                                <a href="{{url('/')}}">Home</a>
                                 
                             </li>
-                            <li><a href="about.html">Quem Somos</a></li>
+                            <li><a href="{{url('/')}}/#quem-somos">Quem Somos</a></li>
                             <li class="menu-item-has-children">
-                                <a href="#">Nossos Serviços</a>
-                                <ul class="sub-menu">
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="service-single.html">Power and energy</a></li>
-                                    <li><a href="oil-lubricant.html">Oil and lubricant</a></li>
-                                </ul>
+                                <a href="{{url('/')}}/#servicos">Nossos Serviços</a>
+                               
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="#">Projetos / Clientes</a>
-                                <ul class="sub-menu">
-                                    <li><a href="projects.html">Projects</a></li>
-                                    <li><a href="project-sigle.html">Project single</a></li>
-                                    <li><a href="team.html">Team</a></li>
-                                    <li><a href="testimonials.html">Testimonials</a></li>
-                                    <li><a href="faq.html">FAQ</a></li>
-                                </ul>
+                                <a href="{{url('/')}}/#projetos">Projetos / Clientes</a>
+                                
                             </li>
                         
-                            <li><a href="contact.html">Fale Conosco</a></li>
+                            <li><a href="{{url('/')}}/#contato">Fale Conosco</a></li>
                         </ul>
                     </div><!-- end of nav-collapse -->
                     <div class="request-quote">
