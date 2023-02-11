@@ -1,50 +1,97 @@
-<section class="section bg-color-dark-scale-2 border-0 m-0 py-4">
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <ul class="list list-unstyled list-inline d-flex align-items-center justify-content-center flex-column flex-lg-row mb-0">
-          <li class="list-inline-item custom-text-color-1 color-inherit mb-lg-0 text-2 pe-2">Alguns de Nossos Links</li>
-          <li class="list-inline-item mb-lg-0"><a href="{{url('/')}}" style="background-color:#E7BE17" class="btn btn-dark btn-modern btn-rounded btn-px-4 py-3 border-0">Página Inicial</a></li>
-          <li class="list-inline-item mb-lg-0"><a href="{{url('/')}}/#por-que-investir" style="background-color:#E7BE17"  class="btn btn-dark btn-modern btn-rounded btn-px-4 py-3 border-0">Por que Investir?</a></li>
-		  <li class="list-inline-item mb-lg-0"><a href="{{url('/')}}/#simulador" style="background-color:#E7BE17"  class="btn btn-dark btn-modern btn-rounded btn-px-4 py-3 border-0">Faça Sua Simulação</a></li>
-        </ul>
-      </div>
+        <!-- start site-footer -->
+        <footer class="site-footer">
+            <div class="upper-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-md-3 col-sm-6">
+                            <div class="widget about-widget">
+                                <div class="footer-logo"><img src="{{url('/')}}/assets/images/logo.png" style="width:150px"title="RenovaSun - Energia Solar" alt="RenovaSun - Energia Solar"></div>
+                                <p>RONAVA SUN é especializada na instalação de projetos de energia solar fotovoltaica, para a geração de energia elétrica limpa em residências e empresas.</p>
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                   
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col col-md-3 col-sm-6">
+                            <div class="widget services-widget">
+                                <h3>Navegação</h3>
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-angle-right"></i> Home</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-right"></i> Quem Somos</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-right"></i> Nossos Serviços</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-right"></i> Projetos/Clientes</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-right"></i> Fale Conosco</a></li>
+									<li><a href="#"><i class="fa fa-angle-right"></i> Orçamento Gratuito</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+						<div class="col col-md-3 col-sm-6">
+                            <div class="widget services-widget">
+                                <h3>Nossos Serviços</h3>
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-angle-right"></i>Energia Solar para Residências</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-right"></i> Energia Solar para Empresas</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-right"></i> Energia Solar para Agronegócios</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col col-md-3 col-sm-6">
+                            <div class="widget recent-post-widget">
+                                <h3>Postagens Recentes</h3>
+                                <ul>
+                                    <li>
+                                        <div class="entry-media">
+                                            <img src="{{url('/')}}/assets/images/blog/thumb/img-1.jpg" alt>
+                                        </div>
+                                        <div class="entry-details">
+                                            <h4><a href="#">Título da Postagem</a></h4>
+                                            <span class="date">Data</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="entry-media">
+                                            <img src="{{url('/')}}/assets/images/blog/thumb/img-2.jpg" alt>
+                                        </div>
+                                        <div class="entry-details">
+										<h4><a href="#">Título da Postagem</a></h4>
+                                            <span class="date">Data</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- end container -->
+            </div> <!-- end upper-footer -->
+            <div class="copyright-info">
+                <div class="container">
+                    <p>2023 &copy; Todos os Direitos Reservados, Desenvolvido com Carinho por: <a href="https://rsweb.com.br" target="_BLANK">RS WEB </a></p>
+                </div>
+            </div>
+        </footer>
+        <!-- end site-footer -->
     </div>
-  </div>
-</section>
-</div>
+    <!-- end of page-wrapper -->
 
-			<footer id="footer" class="bg-color-dark-scale-2 border border-end-0 border-start-0 border-bottom-0 border-color-light-3 mt-0">
-				<div class="container text-center my-3 py-5">
-					<a href="https://umtudoso.com.br">
-						<img src="img/lazy.png" data-src="img/umtudoso.webp" width="200" class="mb-4 appear-animation lazyload" alt="Porto" data-appear-animation="fadeIn" data-appear-animation-delay="300">
-					</a>
-					<p class="text-4 mb-4">Faça sua Cotação Totalmente Gratuita, Aproveite!</p>
-				</div>
-				<div class="copyright bg-dark py-4">
-					<div class="container text-center py-2">
-						<p class="mb-0 text-2">Copyright 2023 Um Tudo Só - Todos os Direitos Reservados</p>
-					</div>
-				</div>
-			</footer>
-		</div>
 
-		<!-- Vendor -->
-		<script src="{{url('/')}}/vendor/plugins/js/plugins.min.js"></script>
-		<script src="{{url('/')}}/vendor/gsap/gsap.min.js"></script>
-		<script src="{{url('/')}}/vendor/gsap/ScrollTrigger.min.js"></script>
 
-		<!-- Theme Base, Components and Settings -->
-		<script src="{{url('/')}}/js/theme.js"></script>
+    <!-- All JavaScript files
+    ================================================== -->
+    <script src="{{url('/')}}/assets/js/jquery.min.js"></script>
+    <script src="{{url('/')}}/assets/js/bootstrap.min.js"></script>
 
-		<!-- Theme Custom -->
-		<script src="{{url('/')}}/js/custom.js"></script>
+    <!-- Plugins for this template -->
+    <script src="{{url('/')}}/assets/js/jquery-plugin-collection.js"></script>
 
-		<!-- Theme Initialization Files -->
-		<script src="{{url('/')}}/js/theme.init.js"></script>
+    <!-- Google map api -->
+    <script src="https://maps.googleapis.com/maps/api/js?key"></script>
 
-	<!-- Examples -->
-		<script src="{{url('/')}}/js/examples/examples.carousels.js"></script>
-
-	</body>
+    <!-- Custom script for this template -->
+    <script src="{{url('/')}}/assets/js/script.js"></script>
+</body>
 </html>

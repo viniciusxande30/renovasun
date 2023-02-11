@@ -1,58 +1,38 @@
 <!DOCTYPE html>
-<html style="scroll-behavior: smooth;">
-	<head>
+<html lang="pt-br">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="themexriver">
 
-		<!-- Basic -->
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Page Title -->
+    <title> Renova Sun - Energia Solar </title>
 
-		<title>Simulador de Energia Solar | Um Tudo Só Comunicação</title>
+    <!-- Icon fonts -->
+    <link href="{{url('/')}}/assets/css/font-awesome.min.css" rel="stylesheet">
 
-		<meta name="keywords" content="WebSite Template" />
-		<meta name="description" content="Simulador de Energia Solar | Um Tudo Só Comunicação">
-		<meta name="author" content="rsweb">
+    <!-- Bootstrap core CSS -->
+    <link href="{{url('/')}}/assets/css/bootstrap.min.css" rel="stylesheet">
 
-		<!-- Favicon -->
-		<link rel="shortcut icon" href="img/icon-uts-150x150.webp" type="image/x-icon" />
-		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <!-- Plugins for this template -->
+    <link href="{{url('/')}}/assets/css/animate.css" rel="stylesheet">
+    <link href="{{url('/')}}/assets/css/owl.carousel.css" rel="stylesheet">
+    <link href="{{url('/')}}/assets/css/owl.theme.css" rel="stylesheet">
+    <link href="{{url('/')}}/assets/css/slick.css" rel="stylesheet">
+    <link href="{{url('/')}}/assets/css/slick-theme.css" rel="stylesheet">
+    <link href="{{url('/')}}/assets/css/owl.transitions.css" rel="stylesheet">
+    <link href="{{url('/')}}/assets/css/jquery.fancybox.css" rel="stylesheet">
+    <link href="{{url('/')}}/assets/css/magnific-popup.css" rel="stylesheet">
 
-		<!-- Mobile Metas -->
-		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+    <!-- Custom styles for this template -->
+    <link href="{{url('/')}}/assets/css/style.css" rel="stylesheet">
 
-		<!-- Web Fonts  -->
-		<link id="googleFonts" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CShadows+Into+Light&display=swap" rel="stylesheet" type="text/css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-		<!-- Vendor CSS -->
-		<link rel="stylesheet" href="<?php echo url('/');?>/vendor/bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-		<link rel="stylesheet" href="<?php echo url('/');?>/vendor/animate/animate.compat.css">
-		<link rel="stylesheet" href="<?php echo url('/');?>/vendor/simple-line-icons/css/simple-line-icons.min.css">
-		<link rel="stylesheet" href="<?php echo url('/');?>/vendor/owl.carousel/assets/owl.carousel.min.css">
-		<link rel="stylesheet" href="<?php echo url('/');?>/vendor/owl.carousel/assets/owl.theme.default.min.css">
-		<link rel="stylesheet" href="<?php echo url('/');?>/vendor/magnific-popup/magnific-popup.min.css">
-
-		<!-- Theme CSS -->
-		<link rel="stylesheet" href="<?php echo url('/');?>/css/theme.css">
-		<link rel="stylesheet" href="<?php echo url('/');?>/css/theme-elements.css">
-		<link rel="stylesheet" href="<?php echo url('/');?>/css/theme-blog.css">
-		<link rel="stylesheet" href="<?php echo url('/');?>/css/theme-shop.css">
-
-		<!-- Skin CSS -->
-		<link id="skinCSS" rel="stylesheet" href="<?php echo url('/');?>/css/skins/default.css">
-
-		<!-- Theme Custom CSS -->
-		<link rel="stylesheet" href="<?php echo url('/');?>/css/custom.css">
-
-		<!-- Head Libs -->
-		<script src="vendor/modernizr/modernizr.min.js"></script>
-
-	</head>
-
-  <body class="loading-overlay-showing" data-plugin-page-transition data-loading-overlay data-plugin-options="{'hideDelay': 0, 'effect': 'pulse'}">
-    <div class="loading-overlay">
-      <div class="bounce-loader">
-        <div class="wrapper-pulse">
-          <div class="cssload-pulse-loader"></div>
-        </div>
-      </div>
-    </div>
+</head>

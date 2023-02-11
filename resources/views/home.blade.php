@@ -1,41 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Meta Tags -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="themexriver">
-
-    <!-- Page Title -->
-    <title> Clinkers - Industry, Factory and Engineering Template </title>
-
-    <!-- Icon fonts -->
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Plugins for this template -->
-    <link href="assets/css/animate.css" rel="stylesheet">
-    <link href="assets/css/owl.carousel.css" rel="stylesheet">
-    <link href="assets/css/owl.theme.css" rel="stylesheet">
-    <link href="assets/css/slick.css" rel="stylesheet">
-    <link href="assets/css/slick-theme.css" rel="stylesheet">
-    <link href="assets/css/owl.transitions.css" rel="stylesheet">
-    <link href="assets/css/jquery.fancybox.css" rel="stylesheet">
-    <link href="assets/css/magnific-popup.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="assets/css/style.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
+@include('includes.header')
 
 <body>
 
@@ -52,27 +15,7 @@
 
         <!-- Start header -->
         <header id="header" class="site-header header-style-1">
-            <div class="topbar">
-                <div class="container">
-                    <div class="row">
-                        <div class="col col-sm-6">
-                            <div class="office-hour">
-                                <ul>
-                                    <li><i class="fa fa-clock-o"></i> Monday - friday : 8:00 AM to 7:00 PM</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col col-sm-6">
-                            <div class="contact-info">
-                                <ul>
-                                    <li><i class="fa fa-phone"></i> +012 (3546) 547</li>
-                                    <li><i class="fa fa-envelope"></i> info-desk@clinkers.com</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- end container -->
-            </div> <!-- end topbar -->
+           
 
             <nav class="navigation navbar navbar-default">
                 <div class="container">
@@ -83,43 +26,26 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt></a>
+                        <a class="navbar-brand" href="{{url('/')}}"><img src="{{url('/')}}/assets/images/logo.png" alt="Renova Sun" title="Renova Sun" style="width:88px"></a>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
                         <button class="close-navbar"><i class="fa fa-close"></i></button>
                         <ul class="nav navbar-nav">
                             <li class="menu-item-has-children">
                                 <a href="#">Home</a>
-                                <ul class="sub-menu">
-                                    <li><a href="index.html">Home Style 1</a></li>
-                                    <li><a href="index-2.html">Home Style 2</a></li>
-                                    <li><a href="index-3.html">Home Style 3</a></li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Third level</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="#">Level 3</a></li>
-                                            <li><a href="#">Level 3</a></li>
-                                            <li><a href="#">Level 3</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
+                                
                             </li>
-                            <li><a href="about.html">About</a></li>
+                            <li><a href="about.html">Quem Somos</a></li>
                             <li class="menu-item-has-children">
-                                <a href="#">Services</a>
+                                <a href="#">Nossos Serviços</a>
                                 <ul class="sub-menu">
                                     <li><a href="services.html">Services</a></li>
                                     <li><a href="service-single.html">Power and energy</a></li>
                                     <li><a href="oil-lubricant.html">Oil and lubricant</a></li>
-                                    <li><a href="meterial-engineering.html">Meterial engineering</a></li>
-                                    <li><a href="mechanical-engineering.html">Mechanical engineering</a></li>
-                                    <li><a href="chemical-research.html">Chemical research</a></li>
-                                    <li><a href="alternate-energy.html">Alternate energy</a></li>
-                                    <li><a href="agricultural-processing.html">Agricultural processing</a></li>
                                 </ul>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="#">Pages</a>
+                                <a href="#">Projetos / Clientes</a>
                                 <ul class="sub-menu">
                                     <li><a href="projects.html">Projects</a></li>
                                     <li><a href="project-sigle.html">Project single</a></li>
@@ -128,18 +54,12 @@
                                     <li><a href="faq.html">FAQ</a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item-has-children">
-                                <a href="#">Blog</a>
-                                <ul class="sub-menu">
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="blog-details.html">Blog single</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="contact.html">Contact</a></li>
+                        
+                            <li><a href="contact.html">Fale Conosco</a></li>
                         </ul>
                     </div><!-- end of nav-collapse -->
                     <div class="request-quote">
-                        <a href="#">Request Quote</a>
+                        <a href="#">Orçamento Gratuito</a>
                     </div>
                 </div><!-- end of container -->
             </nav>
@@ -148,49 +68,63 @@
 
 
         <!-- start of hero -->   
-        <section class="hero hero-slider-wrapper hero-style-1">
+        <section class="hero hero-slider-wrapper hero-style-1"   style="height:400px">
             <div class="hero-slider">
-                <div class="slide">
+                <div class="slide"  style="height:400px">
                     <img src="assets/images/slider/slide-1.jpg" alt class="slider-bg">
                     <div class="container">
                         <div class="row">
-                            <div class="col col-lg-6 col-md-8 col-sm-10 slide-caption">
-                                <h2><span>One Industry</span>All Solution</h2>
-                                <p>An unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <div class="col col-lg-6 col-md-8 col-sm-10 slide-caption"  style="margin-top:30px;">
+                                <h2><span>Energia Solar</span>Renova Sun</h2>
+                                <p>Entre em Contato Conosco, Temos as Melhores Soluções em Energia Solar para Você</p>
                                 <div class="btns">
-                                    <a href="#" class="theme-btn">Our Industries</a>
+                                    <a href="#" class="theme-btn">Faça seu Orçamento Gratuito</a>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="slide">
-                    <img src="assets/images/slider/slide-2.jpg" alt class="slider-bg">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col col-lg-6 col-md-8 col-sm-10 slide-caption">
-                                <h2><span>One Industry</span>All Solution</h2>
-                                <p>An unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                <div class="btns">
-                                    <a href="#" class="theme-btn">Our Industries</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+							<div class="col col-lg-6 col-md-8 col-sm-10"  style="margin:10px 0 0 160px;width:35% !important">
 
-                <div class="slide">
-                    <img src="assets/images/slider/slide-3.jpg" alt class="slider-bg">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col col-lg-6 col-md-8 col-sm-10 slide-caption">
-                                <h2><span>One Industry</span>All Solution</h2>
-                                <p>An unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                <div class="btns">
-                                    <a href="#" class="theme-btn">Our Industries</a>
+                        <div class="contact-form" style="background-color:white;border-top:10px solid #ff5e14; border-radius:5px; box-shadow: 2px 2px 2px #000000;">
+						<!-- <p style="text-align:center;color:black">Faça sua Cotação Gratuita</p> -->
+                            <form class="row contact-validation-active" id="contact-form-s2" novalidate="novalidate"  style="height:350px;">
+
+                                <div class="col col-sm-6">
+                                    <input type="text" class="form-control" id="f-name" name="f_name" value="Nome Completo">
                                 </div>
+                                <div class="col col-sm-6">
+                                    <input type="text" class="form-control" id="l-name" name="l_name" value="Telefone">
+                                </div>
+                                <div class="col col-sm-12">
+                                    <input type="email" class="form-control" id="email" name="email" value="E-mail">
+                                </div>
+                                <div class="col col-sm-12">
+                                    <label for="phone">Escolha seu Projeto</label>
+                                    <input type="text" class="form-control" id="phone" name="phone">
+                                </div>
+                                <div class="col col-xs-12">
+                                    <textarea id="message" name="note" class="form-control" name="Sua Mensagem"></textarea>
+                                </div>
+                                <div class="col col-xs-12">
+                                    <div class="submit-btn">
+                                        <button type="submit" class="theme-btn-s2">Enviar</button>
+                                        <div id="loader">
+                                            <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col col-xs-12">
+                                    <div class="error-handling-messages">
+                                        <div id="success">Thank you</div>
+                                        <div id="error"> Error occurred while sending email. Please try again later. </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
                             </div>
+
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -205,8 +139,8 @@
                 <div class="row">
                     <div class="col col-xs-12">
                         <div class="cta-text">
-                            <h3>We provide innovative Product Solutions for sustainable progress.</h3>
-                            <a href="#" class="theme-btn-s2">Contact Us</a>
+                            <h3>+ DE 3 ANOS DE EXPERIÊNCIA NO MERCADO DE ENERGIA SOLAR</h3>
+                            <a href="#" class="theme-btn-s2">Contato pelo WhatsApp</a>
                         </div>
                     </div>
                 </div>
@@ -215,14 +149,20 @@
         <!-- end cta-section -->
 
 
+
+
+
+
+
+
         <!-- start services-section -->
         <section class="services-section section-padding">
             <div class="container">
                 <div class="row">
                     <div class="col col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1">
                         <div class="section-title">
-                            <h2>Industries Served</h2>
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <h2>Energia Limpa para Você</h2>
+                            <p>Temos as Melhores Soluções de Energia Limpa para Você, Confira aqui</p>
                         </div>
                     </div>
                 </div>
@@ -238,65 +178,38 @@
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <h3>Mechanical Engineering</h3>
-                                    <p>Excepteur sint occaecat cupidatat non proi dent, sunt in culpa qui officia..</p>
-                                    <div class="read-more">
-                                        <a href="#">Read More</a>
-                                    </div>
+                                    <h3>Para sua Casa</h3>
+                                    <p>Ajudamos você a economizar até 95% da conta de luz através da energia capturada por painéis fotovoltaicos</p>
+                                    
                                 </div>
                             </div>
                             <div class="grid">
                                 <div class="img-overlay">
-                                    <img src="assets/images/services/img-5.jpg" alt>
+                                    <img src="assets/images/services/img-2.jpg" alt>
                                     <div class="overlay">
                                         <a href="#"><i class="fa fa-link"></i></a>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <h3>Automotive Services</h3>
-                                    <p>Excepteur sint occaecat cupidatat non proi dent, sunt in culpa qui officia..</p>
-                                    <div class="read-more">
-                                        <a href="#">Read More</a>
-                                    </div>
+                                    <h3>Para Empresas</h3>
+                                    <p>Quer reduzir os custos na sua empresa e não sabe como? A conta de Luz pode ser o ponta pé inicial.</p>
+                                    
                                 </div>
                             </div>
                             <div class="grid">
                                 <div class="img-overlay">
-                                    <img src="assets/images/services/img-6.jpg" alt>
+                                    <img src="assets/images/services/img-3.jpg" alt>
                                     <div class="overlay">
                                         <a href="#"><i class="fa fa-link"></i></a>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <h3>Bridge Construction</h3>
-                                    <p>Excepteur sint occaecat cupidatat non proi dent, sunt in culpa qui officia..</p>
-                                    <div class="read-more">
-                                        <a href="#">Read More</a>
-                                    </div>
+                                    <h3>Para Agronegócios</h3>
+                                    <p>Oferecemos ainda, soluções pra propriedades rurais. Consulte nossa equipe!</p>
                                 </div>
                             </div>
-                            <div class="grid">
-                                <div class="img-overlay">
-                                    <img src="assets/images/services/img-1.jpg" alt>
-                                    <div class="overlay">
-                                        <a href="#"><i class="fa fa-link"></i></a>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <h3>Mechanical Engineering</h3>
-                                    <p>Excepteur sint occaecat cupidatat non proi dent, sunt in culpa qui officia..</p>
-                                    <div class="read-more">
-                                        <a href="#">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col col-xs-12">
-                        <p class="view-all-services"> Click here to view <a href="#">All Services <i class="fa fa-long-arrow-right"></i></a></p>
                     </div>
                 </div>
             </div> <!-- end container -->
@@ -304,140 +217,284 @@
         <!-- end services-section -->
 
 
-        <!-- start about-section -->
-        <section class="about-section">
-            <div class="content">
-                <div class="left-col">
-                    <div class="inner">
-                        <h3>We provide full range of Premium Industrial Services for your business</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <div class="social">
-                            <span>Get Connected With Us:</span>
-                            <ul>
-                                <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="right-col">
-                    <div class="video-holder">
-                        <a href="https://www.youtube.com/embed/7e90gBu4pas?autoplay=1" class="video-btn" data-type="iframe">
-                            <i class="fa fa-play"></i> Play Video
-                        </a>
-                    </div>
-                </div>
-            </div> <!-- end content -->
-        </section>
-        <!-- end about-section -->
 
 
-        <!-- start projects-section -->
-        <section class="projects-section section-padding">
-            <div class="container-fluid">
+
+		<section class="about-section-s3 section-padding">
+            <div class="container">
                 <div class="row">
-                    <div class="col col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1">
-                        <div class="section-title">
-                            <h2>Featured Projects</h2>
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div class="col col-md-6">
+                        <div class="about-img">
+                            <img src="assets/images/about-s3-pic.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col col-md-6">
+                        <div class="about-text">
+                            <div class="title">
+                                <span>A MELHOR OPÇÃO EM </span>
+                                <h2>PAINÉIS FOTOVOLTAÍCOS</h2>
+                            </div>
+                            <p>A RENOVA SUN é uma empresa estabelecida no mercado aliando experiência de trabalho com conhecimento técnico, entregando produtos e serviços de alta qualidade, fornecendo os melhores equipamentos do mercado, com as soluções mais recentes.<br><br> Ainda realizamos a instalação do sistema de energia solar fotovoltaica, elaboramos o projeto elétrico e homologamos o sistema junto à distribuidora de energia.<br><br> Contamos com um time de profissionais capacitados e certificados, prontos para atender e sanar todas as dúvidas dos clientes.</p>
+                           
+                        </div>
+
+                    </div>
+                </div>
+            </div> <!-- end container -->
+        </section>
+
+
+		 <!-- start cta-section -->
+		 <section class="cta-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-xs-12">
+					<div class="fun-fact">
+                                <div class="col-md-3">
+                                    <div class="icon">
+                                        <img src="assets/images/fun-fact/icon-1.png" alt="">
+                                    </div>
+                                    <h3>
+                                        <span class="counter" data-count="1200">1200</span><span>+</span>
+                                    </h3>
+                                    <p>Usuários regulares</p>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <div class="icon">
+                                        <img src="assets/images/fun-fact/icon-2.png" alt="">
+                                    </div>
+                                    <h3>
+                                        <span class="counter" data-count="400">400</span><span>%</span>
+                                    </h3>
+                                    <p>Compatibilidade do Projeto</p>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <div class="icon">
+                                        <img src="assets/images/fun-fact/icon-3.png" alt="">
+                                    </div>
+                                    <h3>
+                                        <span class="counter" data-count="1000">1000</span><span>+</span>
+                                    </h3>
+                                    <p>Anos de Experiência Comprovada</p>
+                                </div>
+
+								<div class="col-md-3">
+                                    <div class="icon">
+                                        <img src="assets/images/fun-fact/icon-3.png" alt="">
+                                    </div>
+                                    <h3>
+                                        <span class="counter" data-count="1000">300</span><span>+</span>
+                                    </h3>
+                                    <p>Clientes Satisfeitos</p>
+                                </div>
                         </div>
                     </div>
                 </div>
+            </div> <!-- end container -->
+        </section>
+        <!-- end cta-section -->
+
+
+
+
+
+
+
+        
+
+
+<!-- start news-section -->
+<section class="news-section section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-lg-3 col-md-4">
+                        <div class="section-title-s2">
+                            <h2 style="font-size:20px">POR QUE INVESTIR EM UM SISTEMA DE ENERGIA SOLAR?</h2>
+                        </div>
+                    </div>
+                    <div class="col col-lg-6 col-md-5">
+                        <p>Para quem não entende pode até parecer complicado, mas confiando na RENOVA SUN, fica muito fácil.</p>
+                    </div>
+                    <div class="col col-lg-3 col-md-3">
+                       <div class="all-news-link">
+                            <a href="#" class="theme-btn-s2">Contato pelo WhatsApp</a>
+                       </div>
+                    </div>
+                </div>  
 
                 <div class="row">
-                    <div class="col col-xs-12 sortable-gallery">
-                        <div class="gallery-filters">
-                            <ul>
-                                <li><a data-filter="*" href="#" class="current">All</a></li>
-                                <li><a data-filter=".construction" href="#">Construction</a></li>
-                                <li><a data-filter=".plant" href="#">Oil Plant</a></li>
-                                <li><a data-filter=".mechanical" href="#">Mechanical</a></li>
-                                <li><a data-filter=".welding" href="#">Welding</a></li>
-                            </ul>
-                        </div>
+                    <div class="col col-xs-12">
+                        <div class="news-grids">
+                            <div class="col-md-3">
+                                <div class="entry-media">
+                                    <img src="assets/images/blog/img-1.jpg" alt>
+                                </div>
+                                <div class="entry-body" style="height:250px">
+                                    <h3><a href="#">Gere sua energia solar</a></h3>
+                                    <p>Torne a energia solar fotovoltaica um de seus investimentos.</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="entry-media">
+                                    <img src="assets/images/blog/img-2.jpg" alt>
+                                </div>
+                                <div class="entry-body" style="height:250px">
+                                    <h3><a href="#">Sem preocupação</a></h3>
+                                    <p>Cuidamos de tudo: projeto, instalação, regularização, manutenção e monitoramento.</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="entry-media">
+                                    <img src="assets/images/blog/img-3.jpg" alt>
+                                </div>
+                                <div class="entry-body" style="height:250px">
+                                    <h3><a href="#">Economia sustentável</a></h3>
+                                    <p>Economize e ajude a criar um planeta movido pela energia limpa que provém do sol.</p>
+                                    
+                                </div>
+                            </div>
 
-                        <div class="gallery-container">
-                            <div class="box construction">
-                                <img src="assets/images/projects/img-1.jpg" alt>
-                                <div class="details">
-                                    <div class="info">
-                                        <span class="cat">Melbourne, AU</span>
-                                        <h3><a href="#">Mechanical Works</a></h3>
-                                    </div>
+							<div class="col-md-3">
+                                <div class="entry-media">
+                                    <img src="assets/images/blog/img-4.jpg" alt>
+                                </div>
+                                <div class="entry-body" style="height:250px">
+                                    <h3><a href="#">Implantá-lo é simples</a></h3>
+                                    <p>Instalação rápida, eficiente e com qualidade assegurada.</p>
+                                    
                                 </div>
                             </div>
-                            <div class="box construction plant">
-                                <img src="assets/images/projects/img-2.jpg" alt>
-                                <div class="details">
-                                    <div class="info">
-                                        <span class="cat">Melbourne, AU</span>
-                                        <h3><a href="#">Mechanical Works</a></h3>
+
+                        </div>
+                    </div>
+                </div>              
+            </div> <!-- end container -->
+        </section>
+        <!-- end news-section -->
+
+
+
+
+		<section class="work-process-section section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-lg-3 col-md-4">
+                        <div class="section-title-s4">
+                            <span>Nossos Processos</span>
+                            <h2 style="font-size:24px">Como Trabalhamos</h2>
+                        </div>
+                    </div>
+                    <div class="col col-lg-8 col-md-8">
+                        <p>PROCESSO DE TRABALHO | O QUE OFERECEMOS</p>
+                    </div>
+                </div>   
+
+                <div class="row">
+                    <div class="col col-xs-12">
+                        <div class="work-process-content">
+                            <!-- Nav tabs -->
+                            <div class="tablinks">
+                                <ul>
+                                    <li class="active">
+                                        <a href="#tab-1" data-toggle="tab" aria-expanded="true">Equipe Qualificada</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#tab-2" data-toggle="tab" aria-expanded="false">Análise de projeto</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#tab-3" data-toggle="tab" aria-expanded="false">Resultados finais</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div class="tab-pane active in" id="tab-1">
+                                    <div class="img-holder">
+                                        <img src="assets/images/workprocess-pic.jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <h3>Equipe Qualificada</h3>
+                                        <p>Trabalhamos profissionais qualificados e experientes.</p>
+                                        <div class="detail-list">
+                                            <ul>
+                                                <li><i class="fa fa-caret-right"></i> Duis aute irure dolor in reprehenderit in.</li>
+                                                <li><i class="fa fa-caret-right"></i> Voluptate velit esse cillum dolore eu.</li>
+                                                <li><i class="fa fa-caret-right"></i> Excepteur sint occaecat cupidatat no.</li>
+                                            </ul>
+                                            <ul>
+                                                <li><i class="fa fa-caret-right"></i> Sunt in culpa qui officiakua.</li>
+                                                <li><i class="fa fa-caret-right"></i> Inventore veritatis et quasi architecto.</li>
+                                                <li><i class="fa fa-caret-right"></i> Accusantium doloremque laudantium</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="box plant construction">
-                                <img src="assets/images/projects/img-3.jpg" alt>
-                                <div class="details">
-                                    <div class="info">
-                                        <span class="cat">Melbourne, AU</span>
-                                        <h3><a href="#">Mechanical Works</a></h3>
+                                <div class="tab-pane fade" id="tab-2">
+                                    <div class="img-holder">
+                                        <img src="assets/images/workprocess-pic.jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <h3>Análise de projeto</h3>
+                                        <p>Para melhoria das condições ambientais de conforto.</p>
+                                        <div class="detail-list">
+                                            <ul>
+                                                <li><i class="fa fa-caret-right"></i> Duis aute irure dolor in reprehenderit in.</li>
+                                                <li><i class="fa fa-caret-right"></i> Voluptate velit esse cillum dolore eu.</li>
+                                                <li><i class="fa fa-caret-right"></i> Excepteur sint occaecat cupidatat no.</li>
+                                            </ul>
+                                            <ul>
+                                                <li><i class="fa fa-caret-right"></i> Sunt in culpa qui officiakua.</li>
+                                                <li><i class="fa fa-caret-right"></i> Inventore veritatis et quasi architecto.</li>
+                                                <li><i class="fa fa-caret-right"></i> Accusantium doloremque laudantium</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="box construction mechanical">
-                                <img src="assets/images/projects/img-4.jpg" alt>
-                                <div class="details">
-                                    <div class="info">
-                                        <span class="cat">Melbourne, AU</span>
-                                        <h3><a href="#">Mechanical Works</a></h3>
+                                <div class="tab-pane fade" id="tab-3">
+                                    <div class="img-holder">
+                                        <img src="assets/images/workprocess-pic.jpg" alt="">
                                     </div>
-                                </div>
-                            </div>
-                            <div class="box plant welding">
-                                <img src="assets/images/projects/img-5.jpg" alt>
-                                <div class="details">
-                                    <div class="info">
-                                        <span class="cat">Melbourne, AU</span>
-                                        <h3><a href="#">Mechanical Works</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="box mechanical">
-                                <img src="assets/images/projects/img-6.jpg" alt>
-                                <div class="details">
-                                    <div class="info">
-                                        <span class="cat">Melbourne, AU</span>
-                                        <h3><a href="#">Mechanical Works</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="box construction">
-                                <img src="assets/images/projects/img-7.jpg" alt>
-                                <div class="details">
-                                    <div class="info">
-                                        <span class="cat">Melbourne, AU</span>
-                                        <h3><a href="#">Mechanical Works</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="box plant welding">
-                                <img src="assets/images/projects/img-8.jpg" alt>
-                                <div class="details">
-                                    <div class="info">
-                                        <span class="cat">Melbourne, AU</span>
-                                        <h3><a href="#">Mechanical Works</a></h3>
+                                    <div class="details">
+                                        <h3>Resultados finais</h3>
+                                        <p>Financie a sua energia e pague muito menos na sua conta de energia.</p>
+                                        <div class="detail-list">
+                                            <ul>
+                                                <li><i class="fa fa-caret-right"></i> Duis aute irure dolor in reprehenderit in.</li>
+                                                <li><i class="fa fa-caret-right"></i> Voluptate velit esse cillum dolore eu.</li>
+                                                <li><i class="fa fa-caret-right"></i> Excepteur sint occaecat cupidatat no.</li>
+                                            </ul>
+                                            <ul>
+                                                <li><i class="fa fa-caret-right"></i> Sunt in culpa qui officiakua.</li>
+                                                <li><i class="fa fa-caret-right"></i> Inventore veritatis et quasi architecto.</li>
+                                                <li><i class="fa fa-caret-right"></i> Accusantium doloremque laudantium</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                </div>             
+            </div> <!-- end container -->
         </section>
-        <!-- end projects-section -->
 
+		<section class="cta-section-s2" style="margin-bottom:100px">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-xs-12">
+                        <div class="cta-text">
+                            <h3>Entre em Contato Conosco e Faça sua Cotação Gratuita</h3>
+                            <a href="#" class="theme-btn-s2">Entre em Contato Pelo WhatsApp</a>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end container -->
+        </section>
 
         <!-- start testimonials-section -->
         <section class="testimonials-section">
@@ -445,11 +502,11 @@
                 <div class="row">
                     <div class="col col-lg-3 col-md-4">
                         <div class="section-title-s2">
-                            <h2>Reviews of <br>our clients</h2>
+                            <h2 style="font-size:24px">Depoimentos de <br>Nossos Clientes</h2>
                         </div>
                     </div>
                     <div class="col col-lg-8 col-md-8">
-                        <p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi archite.</p>
+                        <p>Saiba Mais o Que Nossos Clientes Dizem de Nossos Serviços em Energia Solar.</p>
                     </div>
                 </div>
 
@@ -461,9 +518,9 @@
                                     <img src="assets/images/testimonials/img-1.jpg" alt>
                                 </div>
                                 <div class="details">
-                                    <h3>“Impressive Performance & Productivity”</h3>
-                                    <span class="client-info">- Daniel Craig, Google</span>
-                                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non num quam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commo di conse quatur.</p>
+                                    <h3>“Vou Fazer Minha Casa Totalmente Sustentável”</h3>
+                                    <span class="client-info">- Paulo Lindberg, Analista</span>
+                                    <p>A Energia Solar Fotovoltáica é um recurso que venho pesquisando há vários anos. Agora, com a oportunidade de poder construir a minha casa&nbsp;do jeito que sempre sonhei, pensei:&nbsp;“vou fazer a minha casa &nbsp;totalmente sustentável”.</p>
                                     <div class="rating">
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
@@ -590,79 +647,7 @@
         <!-- end contact-section -->
 
 
-        <!-- start news-section -->
-        <section class="news-section section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col col-lg-3 col-md-4">
-                        <div class="section-title-s2">
-                            <h2>Recent News</h2>
-                        </div>
-                    </div>
-                    <div class="col col-lg-6 col-md-5">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                    </div>
-                    <div class="col col-lg-3 col-md-3">
-                       <div class="all-news-link">
-                            <a href="#" class="theme-btn-s2">More News</a>
-                       </div>
-                    </div>
-                </div>  
-
-                <div class="row">
-                    <div class="col col-xs-12">
-                        <div class="news-grids">
-                            <div class="grid">
-                                <div class="entry-media">
-                                    <img src="assets/images/blog/img-1.jpg" alt>
-                                </div>
-                                <div class="entry-body">
-                                    <h3><a href="#">New industrial project set for DFW Airport site</a></h3>
-                                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet..</p>
-                                    <div class="entry-meta">
-                                        <ul>
-                                            <li><i class="fa fa-clock-o"></i> <a href="#">Nov 26</a></li>
-                                            <li><i class="fa fa-comments-o"></i> <a href="#">2 Comments</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="grid">
-                                <div class="entry-media">
-                                    <img src="assets/images/blog/img-2.jpg" alt>
-                                </div>
-                                <div class="entry-body">
-                                    <h3><a href="#">Central Valley Comes Calling with Industrial Options</a></h3>
-                                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet..</p>
-                                    <div class="entry-meta">
-                                        <ul>
-                                            <li><i class="fa fa-clock-o"></i> <a href="#">Nov 26</a></li>
-                                            <li><i class="fa fa-comments-o"></i> <a href="#">2 Comments</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="grid">
-                                <div class="entry-media">
-                                    <img src="assets/images/blog/img-3.jpg" alt>
-                                </div>
-                                <div class="entry-body">
-                                    <h3><a href="#">Columbus' Industrial Market Continues to Rise</a></h3>
-                                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet..</p>
-                                    <div class="entry-meta">
-                                        <ul>
-                                            <li><i class="fa fa-clock-o"></i> <a href="#">Nov 26</a></li>
-                                            <li><i class="fa fa-comments-o"></i> <a href="#">2 Comments</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>              
-            </div> <!-- end container -->
-        </section>
-        <!-- end news-section -->
+        
 
 
         <!-- start contact-info-map-section -->
@@ -690,140 +675,5 @@
         </section>
         <!-- end contact-info-map-section -->
 
-
-        <!-- start news-letter-section -->
-        <section class="news-letter-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col col-md-7">
-                        <h3>Subscribe your E-mail for our <span>Newsletter &amp; Business Tips</span></h3>
-                    </div>
-                    <div class="col col-md-5">
-                        <div class="newsletter-form">
-                            <form>
-                                <div>
-                                    <input type="text" class="form-control" placeholder="email address..">
-                                    <button type="submit">Subscribe</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div> <!-- end container -->
-        </section>
         <!-- end news-letter-section -->
-
-
-        <!-- start site-footer -->
-        <footer class="site-footer">
-            <div class="upper-footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col col-md-3 col-sm-6">
-                            <div class="widget about-widget">
-                                <div class="footer-logo"><img src="assets/images/footer-logo.png" alt></div>
-                                <p>Since 1960, Clinkers Inc. has built a reputation for producing high quality precision fabricated products for use in a variety of industries.</p>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="col col-md-3 col-sm-6">
-                            <div class="widget services-widget">
-                                <h3>Services</h3>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i> Agriculture Processing</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i> Chemical Research</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i> Metal Engineering</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i> Mechanical Engineering</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i> Petroleum & Gas</a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="col col-md-3 col-sm-6">
-                            <div class="widget twitter-feed-widget">
-                                <h3>Tweets</h3>
-                                <ul>
-                                    <li>
-                                        <div class="text">
-                                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Ed quia con sequuntur.</p>
-                                        </div>
-                                        <div class="info-box">
-                                            <i class="fa fa-twitter"></i>
-                                            <strong><a href="#">@Mark Wahlberg</a></strong>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="text">
-                                            <p>Neque porro quisquam est, qui dolor em ipsum quia dolor sit amet.</p>
-                                        </div>
-                                        <div class="info-box">
-                                            <i class="fa fa-twitter"></i>
-                                            <strong><a href="#">@Mark Wahlberg</a></strong>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="col col-md-3 col-sm-6">
-                            <div class="widget recent-post-widget">
-                                <h3>Recent Posts</h3>
-                                <ul>
-                                    <li>
-                                        <div class="entry-media">
-                                            <img src="assets/images/blog/thumb/img-1.jpg" alt>
-                                        </div>
-                                        <div class="entry-details">
-                                            <h4><a href="#">China industrial profit growth slows to low</a></h4>
-                                            <span class="date">5 hours ago</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="entry-media">
-                                            <img src="assets/images/blog/thumb/img-2.jpg" alt>
-                                        </div>
-                                        <div class="entry-details">
-                                            <h4><a href="#">Industrial space to remain tight</a></h4>
-                                            <span class="date">5 hours ago</span>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- end container -->
-            </div> <!-- end upper-footer -->
-            <div class="copyright-info">
-                <div class="container">
-                    <p>2018 &copy; All Rights Reserved by <a href="http://themeforest.net/user/themexriver">Themexriver</a></p>
-                </div>
-            </div>
-        </footer>
-        <!-- end site-footer -->
-    </div>
-    <!-- end of page-wrapper -->
-
-
-
-    <!-- All JavaScript files
-    ================================================== -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-
-    <!-- Plugins for this template -->
-    <script src="assets/js/jquery-plugin-collection.js"></script>
-
-    <!-- Google map api -->
-    <script src="https://maps.googleapis.com/maps/api/js?key"></script>
-
-    <!-- Custom script for this template -->
-    <script src="assets/js/script.js"></script>
-</body>
-</html>
+@include('includes.footer')
