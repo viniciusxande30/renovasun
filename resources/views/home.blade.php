@@ -80,6 +80,20 @@
 
 							<div class="col col-lg-4 col-md-8 col-sm-10"  style="margin:10px 0 0 -50px;width:35% !important">
 
+<?php
+	$iphone = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
+	$ipad = strpos($_SERVER['HTTP_USER_AGENT'],"iPad");
+	$android = strpos($_SERVER['HTTP_USER_AGENT'],"Android");
+	$palmpre = strpos($_SERVER['HTTP_USER_AGENT'],"webOS");
+	$berry = strpos($_SERVER['HTTP_USER_AGENT'],"BlackBerry");
+	$ipod = strpos($_SERVER['HTTP_USER_AGENT'],"iPod");
+	$symbian =  strpos($_SERVER['HTTP_USER_AGENT'],"Symbian");
+	?>
+	
+
+<?php
+if ($iphone || $ipad || $android || $palmpre || $ipod || $berry || $symbian == false) {
+?>
                         <div class="contact-form" style="background-color:white;border-top:10px solid #ff5e14; border-radius:5px; box-shadow: 2px 2px 2px #000000;">
 						<!-- <p style="text-align:center;color:black">Faça sua Cotação Gratuita</p> -->
                             <form class="row contact-validation-active" id="contact-form-s2" novalidate="novalidate"  style="height:350px;">
@@ -121,6 +135,7 @@
                                 </div>
                             </form>
                         </div>
+						<?php } ?>
 
                             </div>
 

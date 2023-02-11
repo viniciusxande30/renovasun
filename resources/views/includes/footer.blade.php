@@ -6,7 +6,7 @@
                         <div class="col col-md-3 col-sm-6">
                             <div class="widget about-widget">
                                 <div class="footer-logo"><img src="{{url('/')}}/assets/images/logo.png" style="width:150px"title="RenovaSun - Energia Solar" alt="RenovaSun - Energia Solar"></div>
-                                <p>RONAVA SUN é especializada na instalação de projetos de energia solar fotovoltaica, para a geração de energia elétrica limpa em residências e empresas.</p>
+                                <p>RENOVA SUN é especializada na instalação de projetos de energia solar fotovoltaica, para a geração de energia elétrica limpa em residências e empresas.</p>
                                 <ul>
                                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                    
