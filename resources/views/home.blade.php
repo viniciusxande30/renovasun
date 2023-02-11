@@ -172,7 +172,7 @@
                                 <div class="img-overlay">
                                     <img src="assets/images/services/img-1.jpg" alt>
                                     <div class="overlay">
-                                        <a href="#"><i class="fa fa-link"></i></a>
+                                        <a href="#"><i class="fa fa-whatsapp"></i></a>
                                     </div>
                                 </div>
                                 <div class="details">
@@ -185,7 +185,7 @@
                                 <div class="img-overlay">
                                     <img src="assets/images/services/img-2.jpg" alt>
                                     <div class="overlay">
-                                        <a href="#"><i class="fa fa-link"></i></a>
+                                        <a href="#"><i class="fa fa-whatsapp"></i></a>
                                     </div>
                                 </div>
                                 <div class="details">
@@ -198,7 +198,7 @@
                                 <div class="img-overlay">
                                     <img src="assets/images/services/img-3.jpg" alt>
                                     <div class="overlay">
-                                        <a href="#"><i class="fa fa-link"></i></a>
+                                        <a href="#"><i class="fa fa-whatsapp"></i></a>
                                     </div>
                                 </div>
                                 <div class="details">
