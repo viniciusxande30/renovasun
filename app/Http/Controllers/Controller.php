@@ -31,7 +31,7 @@ class Controller extends BaseController
       $name = $_POST['name'];
       $email = $_POST['email'];
       $phone = $_POST['phone'];
-      $state = $_POST['project'];
+      $project = $_POST['project'];
       $msg = $_POST['project'];
       $data_envio = date('d/m/Y');
       $hora_envio = date('H:i:s');

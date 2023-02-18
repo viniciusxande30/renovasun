@@ -91,20 +91,20 @@
 						@if(!$is_mobile)
 
 						<!-- <p style="text-align:center;color:black">Faça sua Cotação Gratuita</p> -->
-                            <form method="post" class="row contact-validation-active" id="contact-form-s2" novalidate="novalidate"  style="height:350px;" action="{{url('/')}}/solicitar-cotacao">
+                            <form method="post" class="row contact-validation-active"  style="height:350px;" action="{{url('/')}}/solicitar-cotacao">
                             @csrf
 								<h2 style="font-size:20px;text-align:center">Faça sua Cotação Gratuita</h2>
                                 <div class="col col-sm-6">
-                                    <input type="text" class="form-control" style="margin-bottom:20px;border-radius:0;border:none;border-bottom:2px solid #ff5e14; box-shadow:none" id="f-name" name="name" value="Nome Completo"request>
+                                    <input type="text" class="form-control" style="margin-bottom:20px;border-radius:0;border:none;border-bottom:2px solid #ff5e14; box-shadow:none" id="f-name" name="name" placeholder="Nome Completo"request>
                                 </div>
                                 <div class="col col-sm-6">
-                                    <input type="text" style="margin-bottom:20px;border-radius:0;border:none;border-bottom:2px solid #ff5e14; box-shadow:none" class="form-control" id="l-name" name="phone" value="Telefone"request>
+                                    <input type="text" style="margin-bottom:20px;border-radius:0;border:none;border-bottom:2px solid #ff5e14; box-shadow:none" class="form-control" id="l-name" name="phone" placeholder="Telefone"request>
                                 </div>
                                 <div class="col col-sm-12">
-                                    <input type="email" style="margin-bottom:20px;border-radius:0;border:none;border-bottom:2px solid #ff5e14; box-shadow:none" class="form-control" id="email" name="email" value="E-mail"request>
+                                    <input type="email" style="margin-bottom:20px;border-radius:0;border:none;border-bottom:2px solid #ff5e14; box-shadow:none" class="form-control" id="email" name="email" placeholder="E-mail"request>
                                 </div>
                                 <div class="col col-sm-12">
-                                    <select type="text" class="form-control" id="phone" name="phone" style="margin-bottom:20px;border-radius:0;border:none;border-bottom:2px solid #ff5e14; box-shadow:none" request>
+                                    <select type="text" class="form-control" id="phone" name="project" style="margin-bottom:20px;border-radius:0;border:none;border-bottom:2px solid #ff5e14; box-shadow:none" request>
 									<option value=''>Escolha Seu Projeto</option>
 									<option value="Energia Solar Residencial">Energia Solar Residencial</option>
 									<option value="Energia Solar Para Empresas">Energia Solar Para Empresas</option>
@@ -117,7 +117,7 @@
                                 </div>
                                 <div class="col col-xs-12">
                                     <div class="submit-btn">
-                                        <button type="submit" style="border:none;margin-top:10px;" class="theme-btn-s2">Enviar</button>
+                                        <button type="submit" style="border:none;margin-top:10px;" class="theme-btn-s2" >Enviar</button>
                                 
                                     </div>
                                 </div>
@@ -566,7 +566,8 @@
                     </div>
 
                     <div class="contact-form form">
-                        <form method="post" id="contact-form" class="contact-validation-active" action="{{url('/')}}/solicitar-cotacao">
+                        <form method="post"  class="contact-validation-active" action="{{url('/')}}/solicitar-cotacao">
+                            @csrf
                             <div>
                                 <label for="name">Nome Completo</label>
                                 <input type="text" id="name" name="name" class="form-control">
