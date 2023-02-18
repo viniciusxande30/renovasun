@@ -568,7 +568,7 @@
                     </div>
 
                     <div class="contact-form form">
-                        <form method="post" id="contact-form" class="contact-validation-active" action="{{url()}}/solicitar-cotacao">
+                        <form method="post" id="contact-form" class="contact-validation-active" action="{{url('/')}}/solicitar-cotacao">
                             <div>
                                 <label for="name">Nome Completo</label>
                                 <input type="text" id="name" name="name" class="form-control">
