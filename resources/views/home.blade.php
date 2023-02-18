@@ -113,7 +113,7 @@
 									</select>
                                 </div>
                                 <div class="col col-xs-12">
-                                    <textarea id="message" name="note" class="form-control" name="msg" style="border-radius:0;border:none;border-bottom:2px solid #ff5e14" request>Sua Mensagem</textarea>
+                                    <textarea id="message" class="form-control" name="msg" style="border-radius:0;border:none;border-bottom:2px solid #ff5e14" request>Sua Mensagem</textarea>
                                 </div>
                                 <div class="col col-xs-12">
                                     <div class="submit-btn">

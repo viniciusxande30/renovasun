@@ -16,7 +16,7 @@ use App\Http\Controllers\Controller;
 Route::get('/', function () {
     return view('home');
 });
-Route::post('/solicitar-cotacao', [Controller::class, 'result'])->name('result');
+Route::post('/solicitar-cotacao', [Controller::class, 'cotacao'])->name('cotacao');
 
 
 Route::middleware([

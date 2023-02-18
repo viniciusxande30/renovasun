@@ -442,12 +442,13 @@ ul.social li{
     public function cotacao(){
             //Variáveis
 
-  $name = $_POST['name'];
-  $email = $_POST['email'];
-  $state = $_POST['state'];
-  $aquisition = $_POST['aquisition'];
-  $average_value = $_POST['average_value'];
-  $terms = $_POST['terms'];
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $phone = $_POST['phone'];
+        $project = $_POST['project'];
+        $msg = $_POST['msg'];
+        $data_envio = date('d/m/Y');
+        $hora_envio = date('H:i:s');
   
   $emailenviar = "rsfreelas@gmail.com";
   $destino = $emailenviar;
@@ -455,7 +456,7 @@ ul.social li{
 
   $headers  = 'MIME-Version: 1.0' . "\r\n";
       $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-      $headers .= "Olá " . $_POST["name"] . " E-mail: " . $_POST["email"] . "Estado: " . $_POST["state"] . "Aquisição: " . $_POST['aquisition']. "Valor Médio: " . $_POST['average_value'] .")<br><br>"."Política de Privacidade: " . $_POST["terms"];;
+      $headers .= "Olá " . $_POST["name"] . " E-mail: " . $_POST["email"] ."<br><br>Telefone:".$_POST['phone']."<br><br>Projeto:".$_POST['project']."<br><br>Mensagem:".$_POST['msg'] ;;
   //$headers .= "Bcc: $EmailPadrao\r\n";
 
   $enviaremail = mail($destino, $assunto, $headers);
