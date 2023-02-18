@@ -16,20 +16,7 @@ use App\Http\Controllers\Controller;
 Route::get('/', function () {
     return view('home');
 });
-
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
-
-// Route::get('/home', function () {
-//     return view('home');
-// });
-
-// Route::get('/resultado', [Controller::class, 'result'])->name('result');
-// Route::get('/cotacao-enviada', [Controller::class, 'quotationSend'])->name('quotationSend');
-// Route::post('/enviar-simulacao', [Controller::class, 'result'])->name('result');
-// Route::post('/enviar-cotacao', [Controller::class, 'cotacao'])->name('cotacao');
+Route::post('/solicitar-orcamento', [Controller::class, 'result'])->name('result');
 
 
 Route::middleware([

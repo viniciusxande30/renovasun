@@ -17,21 +17,22 @@ class Controller extends BaseController
     //   return view('result');
     // }
     public function result(){
-      $data  = [
-        'name'=>$_POST['name'],
-        'phone'=>$_POST['phone'],
-        'email'=>$_POST['email'],
-        'state'=>$_POST['state'],
-        'network_type'=>$_POST['network_type'],
-        'local'=>$_POST['local'],
-        'price'=>$_POST['price'],
-      ];
+    //   $data  = [
+    //     'name'=>$_POST['name'],
+    //     'phone'=>$_POST['phone'],
+    //     'email'=>$_POST['email'],
+    //     'state'=>$_POST['state'],
+    //     'network_type'=>$_POST['network_type'],
+    //     'local'=>$_POST['local'],
+    //     'price'=>$_POST['price'],
+    //   ];
 
 
       $name = $_POST['name'];
       $email = $_POST['email'];
       $phone = $_POST['phone'];
-      $state = $_POST['state'];
+      $state = $_POST['project'];
+      $msg = $_POST['project'];
       $data_envio = date('d/m/Y');
       $hora_envio = date('H:i:s');
 
@@ -411,7 +412,7 @@ ul.social li{
 
       $emailenviar = "rsfreelas@gmail.com";
       $destino = $emailenviar;
-      $assunto = "Novo Lead  - Simulador Solar";
+      $assunto = "Novo Lead  - Energia Solar";
 
       // É necessário indicar que o formato do e-mail é html
   $headers  = 'MIME-Version: 1.0' . "\r\n";

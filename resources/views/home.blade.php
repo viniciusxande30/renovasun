@@ -91,28 +91,29 @@
 						@if(!$is_mobile)
 
 						<!-- <p style="text-align:center;color:black">Faça sua Cotação Gratuita</p> -->
-                            <form class="row contact-validation-active" id="contact-form-s2" novalidate="novalidate"  style="height:350px;">
+                            <form method="post" class="row contact-validation-active" id="contact-form-s2" novalidate="novalidate"  style="height:350px;" action="{{url()}}/solicitar-cotacao">
+                            @csrf
 								<h2 style="font-size:20px;text-align:center">Faça sua Cotação Gratuita</h2>
                                 <div class="col col-sm-6">
-                                    <input type="text" class="form-control" style="margin-bottom:20px;border-radius:0;border:none;border-bottom:2px solid #ff5e14; box-shadow:none" id="f-name" name="f_name" value="Nome Completo">
+                                    <input type="text" class="form-control" style="margin-bottom:20px;border-radius:0;border:none;border-bottom:2px solid #ff5e14; box-shadow:none" id="f-name" name="name" value="Nome Completo"request>
                                 </div>
                                 <div class="col col-sm-6">
-                                    <input type="text" style="margin-bottom:20px;border-radius:0;border:none;border-bottom:2px solid #ff5e14; box-shadow:none" class="form-control" id="l-name" name="l_name" value="Telefone">
+                                    <input type="text" style="margin-bottom:20px;border-radius:0;border:none;border-bottom:2px solid #ff5e14; box-shadow:none" class="form-control" id="l-name" name="phone" value="Telefone"request>
                                 </div>
                                 <div class="col col-sm-12">
-                                    <input type="email" style="margin-bottom:20px;border-radius:0;border:none;border-bottom:2px solid #ff5e14; box-shadow:none" class="form-control" id="email" name="email" value="E-mail">
+                                    <input type="email" style="margin-bottom:20px;border-radius:0;border:none;border-bottom:2px solid #ff5e14; box-shadow:none" class="form-control" id="email" name="email" value="E-mail"request>
                                 </div>
                                 <div class="col col-sm-12">
-                                    <select type="text" class="form-control" id="phone" name="phone" style="margin-bottom:20px;border-radius:0;border:none;border-bottom:2px solid #ff5e14; box-shadow:none">
-									<option>Escolha Seu Projeto</option>
-									<option>Energia Solar Residencial</option>
-									<option>Energia Solar Para Empresas</option>
-									<option>Energia Solar Para Agronegócios</option>
+                                    <select type="text" class="form-control" id="phone" name="phone" style="margin-bottom:20px;border-radius:0;border:none;border-bottom:2px solid #ff5e14; box-shadow:none" request>
+									<option value=''>Escolha Seu Projeto</option>
+									<option value="Energia Solar Residencial">Energia Solar Residencial</option>
+									<option value="Energia Solar Para Empresas">Energia Solar Para Empresas</option>
+									<option value="Energia Solar Para Agronegócios">Energia Solar Para Agronegócios</option>
 
 									</select>
                                 </div>
                                 <div class="col col-xs-12">
-                                    <textarea id="message" name="note" class="form-control" name="Sua Mensagem" style="border-radius:0;border:none;border-bottom:2px solid #ff5e14">Sua Mensagem</textarea>
+                                    <textarea id="message" name="note" class="form-control" name="msg" style="border-radius:0;border:none;border-bottom:2px solid #ff5e14" request>Sua Mensagem</textarea>
                                 </div>
                                 <div class="col col-xs-12">
                                     <div class="submit-btn">
@@ -122,12 +123,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col col-xs-12">
-                                    <div class="error-handling-messages">
-                                        <div id="success">Thank you</div>
-                                        <div id="error"> Error occurred while sending email. Please try again later. </div>
-                                    </div>
-                                </div>
+                                
                             </form>
 							@endif
                         </div>
@@ -572,7 +568,7 @@
                     </div>
 
                     <div class="contact-form form">
-                        <form method="post" id="contact-form" class="contact-validation-active">
+                        <form method="post" id="contact-form" class="contact-validation-active" action="{{url()}}/solicitar-cotacao">
                             <div>
                                 <label for="name">Nome Completo</label>
                                 <input type="text" id="name" name="name" class="form-control">
@@ -587,7 +583,7 @@
                             </div>
                             <div>
                                 <label>Escolha o Seu Projeto</label>
-                                <select type="text" class="form-control" id="phone" name="phone">
+                                <select type="text" class="form-control" id="phone" name="project">
 									<option>Energia Solar Residencial</option>
 									<option>Energia Solar Para Empresas</option>
 									<option>Energia Solar Para Agronegócios</option>
