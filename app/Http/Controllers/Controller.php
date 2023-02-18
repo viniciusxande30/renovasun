@@ -450,7 +450,7 @@ ul.social li{
         $data_envio = date('d/m/Y');
         $hora_envio = date('H:i:s');
   
-  $emailenviar = "rsfreelas@gmail.com";
+  $emailenviar = "renovasun@renovasun.com.br";
   $destino = $emailenviar;
   $assunto = "Contato pelo Site Renovasun";
 

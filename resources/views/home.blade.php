@@ -428,14 +428,14 @@
                                         <p>Trabalhamos profissionais qualificados e experientes.</p>
                                         <div class="detail-list">
                                             <ul>
-                                                <li><i class="fa fa-caret-right"></i> Duis aute irure dolor in reprehenderit in.</li>
-                                                <li><i class="fa fa-caret-right"></i> Voluptate velit esse cillum dolore eu.</li>
-                                                <li><i class="fa fa-caret-right"></i> Excepteur sint occaecat cupidatat no.</li>
+                                                <li><i class="fa fa-caret-right"></i> Nossa equipe é formada por profissionais altamente capacitados.</li>
+                                                <li><i class="fa fa-caret-right"></i> Contamos com anos de experiência no mercado.</li>
+                                                <li><i class="fa fa-caret-right"></i> Nossos profissionais são especializados em diversas áreas.</li>
                                             </ul>
                                             <ul>
-                                                <li><i class="fa fa-caret-right"></i> Sunt in culpa qui officiakua.</li>
-                                                <li><i class="fa fa-caret-right"></i> Inventore veritatis et quasi architecto.</li>
-                                                <li><i class="fa fa-caret-right"></i> Accusantium doloremque laudantium</li>
+                                                <li><i class="fa fa-caret-right"></i> Investimos em treinamentos e atualizações para nossa equipe.</li>
+                                                <li><i class="fa fa-caret-right"></i> Oferecemos um atendimento personalizado e de qualidade.</li>
+                                                <li><i class="fa fa-caret-right"></i> Nosso compromisso é entregar resultados de excelência com profissionais de alto nível.</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -449,14 +449,14 @@
                                         <p>Para melhoria das condições ambientais de conforto.</p>
                                         <div class="detail-list">
                                             <ul>
-                                                <li><i class="fa fa-caret-right"></i> Duis aute irure dolor in reprehenderit in.</li>
-                                                <li><i class="fa fa-caret-right"></i> Voluptate velit esse cillum dolore eu.</li>
-                                                <li><i class="fa fa-caret-right"></i> Excepteur sint occaecat cupidatat no.</li>
+                                                <li><i class="fa fa-caret-right"></i> Nosso objetivo é garantir um ambiente confortável e saudável para nossos clientes.</li>
+                                                <li><i class="fa fa-caret-right"></i> Realizamos uma análise minuciosa para identificar oportunidades de melhoria.</li>
+                                                <li><i class="fa fa-caret-right"></i> Utilizamos tecnologias avançadas para obter resultados precisos na análise de projetos.</li>
                                             </ul>
                                             <ul>
-                                                <li><i class="fa fa-caret-right"></i> Sunt in culpa qui officiakua.</li>
-                                                <li><i class="fa fa-caret-right"></i> Inventore veritatis et quasi architecto.</li>
-                                                <li><i class="fa fa-caret-right"></i> Accusantium doloremque laudantium</li>
+                                                <li><i class="fa fa-caret-right"></i> Nossa equipe é especializada em avaliar aspectos técnicos e ambientais para garantir o máximo conforto.</li>
+                                                <li><i class="fa fa-caret-right"></i> Focamos em soluções sustentáveis e econômicas para melhorar as condições ambientais de conforto.</li>
+                                                <li><i class="fa fa-caret-right"></i> Nossa análise de projeto ajuda a garantir a eficiência energética e a redução de impactos ambientais.</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -470,14 +470,14 @@
                                         <p>Financie a sua energia e pague muito menos na sua conta de energia.</p>
                                         <div class="detail-list">
                                             <ul>
-                                                <li><i class="fa fa-caret-right"></i> Duis aute irure dolor in reprehenderit in.</li>
-                                                <li><i class="fa fa-caret-right"></i> Voluptate velit esse cillum dolore eu.</li>
-                                                <li><i class="fa fa-caret-right"></i> Excepteur sint occaecat cupidatat no.</li>
+                                                <li><i class="fa fa-caret-right"></i> Fique surpreso com os resultados finais do financiamento de energia.</li>
+                                                <li><i class="fa fa-caret-right"></i> Reduza suas despesas de energia e economize dinheiro com nosso financiamento.</li>
+                                                <li><i class="fa fa-caret-right"></i> Faça seu dinheiro render mais e invista em energia limpa e renovável.</li>
                                             </ul>
                                             <ul>
-                                                <li><i class="fa fa-caret-right"></i> Sunt in culpa qui officiakua.</li>
-                                                <li><i class="fa fa-caret-right"></i> Inventore veritatis et quasi architecto.</li>
-                                                <li><i class="fa fa-caret-right"></i> Accusantium doloremque laudantium</li>
+                                                <li><i class="fa fa-caret-right"></i> Nossos clientes desfrutam de economias significativas em suas contas de energia.</li>
+                                                <li><i class="fa fa-caret-right"></i> Oferecemos soluções personalizadas para ajudá-lo a atingir seus objetivos financeiros e energéticos.</li>
+                                                <li><i class="fa fa-caret-right"></i> Invista em um futuro mais sustentável e comece a economizar em sua conta de energia hoje mesmo.</li>
                                             </ul>
                                         </div>
                                     </div>
