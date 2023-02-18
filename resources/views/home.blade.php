@@ -570,25 +570,26 @@
                             @csrf
                             <div>
                                 <label for="name">Nome Completo</label>
-                                <input type="text" id="name" name="name" class="form-control">
+                                <input type="text" id="name" name="name" class="form-control" request>
                             </div>
                             <div>
                                 <label for="email">E-mail</label>
-                                <input type="email" id="email" name="email" class="form-control">
+                                <input type="email" id="email" name="email" class="form-control" request>
                             </div>
                             <div>
                                 <label for="phone">Telefone</label>
-                                <input type="text" id="phone" name="phone" class="form-control">
+                                <input type="text" id="phone" name="phone" class="form-control" request>
                             </div>
                             <div>
                                 <label>Escolha o Seu Projeto</label>
-                                <select type="text" class="form-control" id="phone" name="project">
-									<option>Energia Solar Residencial</option>
-									<option>Energia Solar Para Empresas</option>
-									<option>Energia Solar Para Agronegócios</option>
+                                <select type="text" class="form-control" name="project" request>
+									<option value="Energia Solar Residencial">Energia Solar Residencial</option>
+									<option value="Energia Solar Para Empresas">Energia Solar Para Empresas</option>
+									<option value="Energia Solar Para Agronegócios">Energia Solar Para Agronegócios</option>
 
 									</select>
                             </div>
+                            <input type="hidden" value="Quero uma Cotação de Valores" name="msg">
 							
                             <div class="submit-btn-wrap">
                                 <input value="Solicitar Cotação" type="submit">
