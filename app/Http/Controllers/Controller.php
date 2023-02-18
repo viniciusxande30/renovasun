@@ -452,11 +452,11 @@ ul.social li{
   
   $emailenviar = "rsfreelas@gmail.com";
   $destino = $emailenviar;
-  $assunto = "Contato pelo Site";
+  $assunto = "Contato pelo Site Renovasun";
 
   $headers  = 'MIME-Version: 1.0' . "\r\n";
       $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-      $headers .= "Olá " . $_POST["name"] . " E-mail: " . $_POST["email"] ."<br><br>Telefone:".$_POST['phone']."<br><br>Projeto:".$_POST['project']."<br><br>Mensagem:".$_POST['msg'] ;;
+      $headers .= "Olá " . $_POST["name"] . " E-mail: " . $_POST["email"] ."Telefone:".$_POST['phone']."Projeto:".$_POST['project']."Mensagem:".$_POST['msg'] ;;
   //$headers .= "Bcc: $EmailPadrao\r\n";
 
   $enviaremail = mail($destino, $assunto, $headers);
@@ -466,9 +466,9 @@ ul.social li{
   $mgm = "ERRO AO ENVIAR E-MAIL!";
   echo "";
   }
-    return redirect()->route('quotationSend');
+    return redirect()->route('cotacaoEnviada');
     }
-  public function quotationSend(){
-    return view('quotation-send');
+  public function cotacaoEnviada(){
+    return view('cotacao-enviada');
   }
 }

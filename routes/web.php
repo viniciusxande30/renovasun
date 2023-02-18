@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('home');
 });
 Route::post('/solicitar-cotacao', [Controller::class, 'cotacao'])->name('cotacao');
+Route::get('/cotacao-enviada', [Controller::class, 'cotacaoEnviada'])->name('cotacaoEnviada');
 
 
 Route::middleware([
