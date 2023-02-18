@@ -91,7 +91,7 @@
 						@if(!$is_mobile)
 
 						<!-- <p style="text-align:center;color:black">Faça sua Cotação Gratuita</p> -->
-                            <form method="post" class="row contact-validation-active" id="contact-form-s2" novalidate="novalidate"  style="height:350px;" action="{{url()}}/solicitar-cotacao">
+                            <form method="post" class="row contact-validation-active" id="contact-form-s2" novalidate="novalidate"  style="height:350px;" action="{{url('/')}}/solicitar-cotacao">
                             @csrf
 								<h2 style="font-size:20px;text-align:center">Faça sua Cotação Gratuita</h2>
                                 <div class="col col-sm-6">
