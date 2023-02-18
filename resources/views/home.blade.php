@@ -118,9 +118,7 @@
                                 <div class="col col-xs-12">
                                     <div class="submit-btn">
                                         <button type="submit" style="border:none;margin-top:10px;" class="theme-btn-s2">Enviar</button>
-                                        <div id="loader">
-                                            <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
-                                        </div>
+                                
                                     </div>
                                 </div>
                                 
@@ -593,14 +591,9 @@
 							
                             <div class="submit-btn-wrap">
                                 <input value="Solicitar Cotação" type="submit">
-                                <div id="loader">
-                                    <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
-                                </div>
+                               
                             </div>
-                            <div class="error-handling-messages">
-                                <div id="success">Thank you</div>
-                                <div id="error"> Error occurred while sending email. Please try again later. </div>
-                            </div>
+                            
                         </form>
                     </div>                     
                 </div>
