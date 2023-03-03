@@ -21,7 +21,16 @@
 		  .navbar a:after{
 			top:75% !important;
 		  }
-		   </style>
+          .header-style-1 #navbar, .header-style-2 #navbar, .header-style-3 #navbar {
+    MARGIN-TOP: 20px !important;
+}		  
+.header-style-1 .request-quote a, .header-style-2 .request-quote a, .header-style-3 .request-quote a {
+    color: #fff;
+    margin-top: 0px;
+    padding: 50px 19px !important;
+    display: inline-block;
+}
+ </style>
 
             <nav class="navigation navbar navbar-default">
                 <div class="container">
@@ -32,7 +41,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="{{url('/')}}"><img src="{{url('/')}}/assets/images/logo.png" alt="Renova Sun" title="Renova Sun" style="width:88px"></a>
+                        <a class="navbar-brand" href="{{url('/')}}"><img src="{{url('/')}}/assets/images/logo.png" alt="Renova Sun" title="Renova Sun" style="width:150px"></a>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
                         <button class="close-navbar"><i class="fa fa-close"></i></button>
@@ -116,10 +125,16 @@
                                     <textarea id="message" class="form-control" name="msg" style="border-radius:0;border:none;border-bottom:2px solid #ff5e14" request>Sua Mensagem</textarea>
                                 </div>
                                 <div class="col col-xs-12">
-                                    <div class="submit-btn">
+                                    <div class="submit-btn col-12">
                                         <button type="submit" style="border:none;margin-top:10px;" class="theme-btn-s2" >Enviar</button>
-                                
+                                        <p style="text-align:right;font-size:20px;">
+                                        <a href="https://www.facebook.com/Renovasunenergias" target="_BLANK"><i class="fa fa-facebook" style="padding-right:10px;color:#ff5e14"></i></a>
+                                        <a href="https://www.instagram.com/renovasun/" target="_BLANK"><i class="fa fa-instagram"style="padding-right:10px;color:#ff5e14"></i></a>
+                                        <a href="https://www.contate.me/renova-sun" target="_BLANK"><i class="fa fa-whatsapp"style="color:#ff5e14"></i></p></a>
+
+
                                     </div>
+                                    
                                 </div>
                                 
                             </form>
